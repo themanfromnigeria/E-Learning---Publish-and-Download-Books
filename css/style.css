@@ -1,0 +1,123 @@
+/* Name: Alawode Kindness
+   Email: kindnessalawode2017@gmail.com
+   Instagram: @kindyy01
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+   --purple:#8e44ad;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+.pdf-list {
+	width: 100%;
+}
+.card {
+	width: 13rem;
+}
+.category .list-group {
+	width: 200px;
+}
+.nd {
+	text-decoration: none;
+}
+
+/* Styles for the home page */
+section{
+   padding:3rem 2rem;
+}
+.home{
+   min-height: 70vh;
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/home-bg.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.home .content{
+   text-align: center;
+   width: 100rem;
+}
+
+.home .content h3{
+   font-size: 3.4rem;
+   color:var(--white);
+   text-transform: uppercase;
+}
+
+.home .content p{
+   font-size:1.8rem;
+   color:var(--light-white);
+   padding:1rem 0;
+   line-height: 1.5;
+}
+
+
+.bookdetails{
+   min-height: 70vh;
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/bookdetails-bg.jpg) no-repeat;
+   background-size:contain;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bookdetails .content{
+   text-align: center;
+   width: 100rem;
+}
+
+.bookdetails .content h3{
+   font-size: 3.4rem;
+   color:var(--white);
+   text-transform: lowercase;
+}
+
+.bookdetails .content p{
+   font-size:1.8rem;
+   color:var(--light-white);
+   padding:1rem 0;
+   line-height: 1.5;
+}
+
+.white-btn,
+.btn{
+   background-color: var(--purple);
+}
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:1rem 1.5rem;
+   cursor: pointer;
+   color:var(--white);
+   font-size: 1.5rem;
+   border-radius: .4rem;
+   text-transform: capitalize;
+}
+.white-btn:hover{
+   background-color: var(--white);
+   color:var(--black);
+}
+
+
+/* Name: Alawode Kindness
+   Email: kindnessalawode2017@gmail.com
+   Instagram: @kindyy01
+ */
