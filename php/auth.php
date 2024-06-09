@@ -10,10 +10,8 @@ if (isset($_POST['email']) &&
     # Validation helper function
 	include "func-validation.php";
 	
-	/** 
-	   Get data from POST request 
-	   and store them in var
-	**/
+	//    Get data from POST request 
+	//    and store them in var
 
 	$email = $_POST['email'];
 	$password = $_POST['password'];
